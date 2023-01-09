@@ -21,3 +21,4 @@ select string_agg(artist, ', ') as artist, max_rating as rating
 from ordered_artists
 where dr = 1
 group by max_rating;
+ 

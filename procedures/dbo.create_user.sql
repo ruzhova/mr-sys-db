@@ -13,3 +13,4 @@ if not exists (select 1 from dbo.users where username = @username) -- прове
     insert into dbo.users(username, password, additional_info, registration_date)
     values (@username, @password, @additional_info, getdate())
   end;
+ 

@@ -25,3 +25,4 @@ select
     left join dbo.user_rating_album as ura on a2.id = ura.album_id
     where ura.album_id is null
   ) as a;
+ 

@@ -147,3 +147,4 @@ begin catch -- в случае возникновения ошибки --
   rollback -- откат транзакции --
   select error_message() -- вывод сообщения об ошибке --
 end catch;
+ 

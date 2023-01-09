@@ -22,3 +22,4 @@ select
   cast(avg(rating) as numeric(5,2)) as rating -- преобразование numeric(5,2) для округления --
   from albums_artists
   group by album;
+ 

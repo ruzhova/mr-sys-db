@@ -30,3 +30,4 @@ set nocount on;
         where id in (select user_id from inserted)
     end
 end
+ 

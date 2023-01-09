@@ -17,3 +17,4 @@ as
   left join dbo.genres as g on g.id = a1.genre   -- левое внешнее соединение, тк у альбома --
   left join dbo.formats as f on f.id = a1.format -- может не быть жанра и формата --
   group by a1.title, g.name, f.title, a1.release_date, a1.description;
+ 
