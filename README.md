@@ -1,7 +1,7 @@
 # Music album rating database
 ##### A simple database to showcase my skills
 
-This database us created using Transact-SQL.
+This database is created using Transact-SQL.
 
 This work presents:
  - DDL, DML and TCL operations

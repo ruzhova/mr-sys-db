@@ -14,3 +14,4 @@ if not exists (select 1 from dbo.artists where name = @name) and exists (select 
     insert into dbo.artists(name, additional_info, user_added_id)
     values (@name, @additional_info, @user_added_id)
   end;
+  

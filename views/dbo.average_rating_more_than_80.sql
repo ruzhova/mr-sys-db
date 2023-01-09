@@ -12,4 +12,3 @@ as
   join dbo.albums as a on a.id = ura.album_id 
   group by a.title
   having avg(ura.rating) > 80;
-  

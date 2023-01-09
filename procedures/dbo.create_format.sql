@@ -14,4 +14,3 @@ if not exists (select 1 from dbo.formats where title = @title) and exists (selec
     insert into dbo.formats (title, description, user_added_id)
     values (@title, @description, @user_added_id)
   end;  
-  
