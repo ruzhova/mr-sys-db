@@ -1,5 +1,5 @@
 # Music album rating database
-##### A simple database to showcase my skills
+### A simple database to showcase my skills
 
 This database is created using Transact-SQL.
 
