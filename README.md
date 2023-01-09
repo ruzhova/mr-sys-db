@@ -18,4 +18,8 @@ This work presents:
  - Working with sets (except)
  - Nested subqueries
 
+Worked with:
+ - mostly DBeaver
+ - sometimes SSMS
+
 Ryzhova Anastasia
